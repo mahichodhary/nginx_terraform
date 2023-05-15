@@ -7,3 +7,4 @@ module "ubuntu-server-2"{
 module "amazon-linux-server"{
     source = "./modules/amazon-linux-server"
 }
+resource "null_resource" "example" {}
